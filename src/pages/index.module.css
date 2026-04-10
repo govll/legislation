@@ -1,0 +1,344 @@
+/* ── Tokens (matching govll.org palette) ───────────────────────────────────── */
+:root {
+  --ll-blue:        #1a3a8f;
+  --ll-blue-light:  #2a5ac8;
+  --ll-navy:        #0d2b6e;
+  --ll-gold:        #cd8544;
+  --ll-bg:          #f5f5f5;
+  --ll-white:       #ffffff;
+  --ll-text:        #333333;
+  --ll-muted:       #666666;
+  --ll-border:      #eaeaea;
+  --ll-card-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  --ll-font:        'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ── Notice Banner ──────────────────────────────────────────────────────────── */
+
+.noticeBanner {
+  background-color: var(--ll-navy);
+  color: rgba(255, 255, 255, 0.85);
+  font-family: var(--ll-font);
+  font-size: 0.85rem;
+  padding: 0.6rem 0;
+  text-align: center;
+  border-bottom: 2px solid var(--ll-gold);
+}
+
+.noticeInner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.noticeBanner a {
+  color: var(--ll-gold);
+  text-decoration: none;
+}
+
+.noticeBanner a:hover {
+  text-decoration: underline;
+}
+
+/* ── Main ───────────────────────────────────────────────────────────────────── */
+
+.main {
+  padding: 2rem 0;
+  min-height: calc(100vh - 200px);
+  background-color: var(--ll-bg);
+  font-family: var(--ll-font);
+  color: var(--ll-text);
+  line-height: 1.6;
+}
+
+/* ── Page Header ────────────────────────────────────────────────────────────── */
+
+.pageHeader {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid var(--ll-border);
+}
+
+.pageTitle {
+  color: var(--ll-blue) !important;
+  margin-bottom: 0.5rem !important;
+  font-family: var(--ll-font) !important;
+  font-size: 2rem !important;
+}
+
+.effectiveDate {
+  font-style: italic;
+  color: var(--ll-muted);
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+/* ── Hero Panel ─────────────────────────────────────────────────────────────── */
+
+.hero {
+  background-color: var(--ll-white);
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: var(--ll-card-shadow);
+  margin-bottom: 2rem;
+}
+
+.heroHeading {
+  color: var(--ll-blue) !important;
+  font-family: var(--ll-font) !important;
+  margin-bottom: 1rem !important;
+  border-bottom: 2px solid var(--ll-border);
+  padding-bottom: 10px;
+  font-size: 1.5rem !important;
+}
+
+.hero p {
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  color: var(--ll-text);
+}
+
+.heroStats {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 1.75rem;
+  padding: 1.25rem 1.5rem;
+  background-color: #f9f9f9;
+  border-left: 4px solid var(--ll-blue);
+  border-radius: 0 5px 5px 0;
+}
+
+.statItem {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.statValue {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--ll-blue);
+  line-height: 1;
+}
+
+.statLabel {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--ll-muted);
+  margin-top: 3px;
+}
+
+.heroCta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+/* ── Buttons ────────────────────────────────────────────────────────────────── */
+
+.btnPrimary {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: var(--ll-blue);
+  color: white !important;
+  text-decoration: none !important;
+  border-radius: 5px;
+  font-family: var(--ll-font);
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.btnPrimary:hover {
+  background-color: var(--ll-navy);
+}
+
+.btnPrimary:active {
+  border: 2px solid var(--ll-gold);
+}
+
+.btnSecondary {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: transparent;
+  color: var(--ll-blue) !important;
+  text-decoration: none !important;
+  border-radius: 5px;
+  border: 2px solid var(--ll-blue);
+  font-family: var(--ll-font);
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: background-color 0.3s, color 0.3s;
+  cursor: pointer;
+}
+
+.btnSecondary:hover {
+  background-color: var(--ll-blue);
+  color: white !important;
+}
+
+/* ── Section ────────────────────────────────────────────────────────────────── */
+
+.section {
+  margin-bottom: 2rem;
+}
+
+.sectionHeading {
+  color: var(--ll-blue) !important;
+  font-family: var(--ll-font) !important;
+  margin-bottom: 1rem !important;
+  border-bottom: 1px solid var(--ll-border);
+  padding-bottom: 10px;
+  font-size: 1.3rem !important;
+}
+
+/* ── Cards ──────────────────────────────────────────────────────────────────── */
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.card {
+  background-color: var(--ll-white);
+  border-radius: 5px;
+  box-shadow: var(--ll-card-shadow);
+  padding: 1.5rem;
+  text-decoration: none !important;
+  color: var(--ll-text) !important;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.cardNumber {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ll-blue-light);
+  background-color: #eef2fc;
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 3px;
+  margin-bottom: 4px;
+  width: fit-content;
+}
+
+.cardTitle {
+  color: var(--ll-blue);
+  font-family: var(--ll-font);
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+  border-bottom: 1px solid var(--ll-border);
+  padding-bottom: 8px;
+}
+
+.cardDesc {
+  font-size: 0.9rem;
+  color: var(--ll-text);
+  line-height: 1.6;
+  margin: 0;
+  flex: 1;
+}
+
+.cardLink {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--ll-blue-light);
+  margin-top: 4px;
+  transition: color 0.2s;
+}
+
+.card:hover .cardLink {
+  color: var(--ll-gold);
+}
+
+.viewAll {
+  margin-top: 0.5rem;
+}
+
+/* ── Constitution Panel ─────────────────────────────────────────────────────── */
+
+.constitutionPanel {
+  background-color: var(--ll-white);
+  border-radius: 5px;
+  box-shadow: var(--ll-card-shadow);
+  display: flex;
+  overflow: hidden;
+}
+
+.constitutionPanelBar {
+  width: 6px;
+  flex-shrink: 0;
+  background: linear-gradient(to bottom, var(--ll-blue), var(--ll-blue-light));
+}
+
+.constitutionPanelBody {
+  padding: 2rem;
+  flex: 1;
+}
+
+.constitutionHeading {
+  color: var(--ll-blue) !important;
+  font-family: var(--ll-font) !important;
+  font-size: 1.4rem !important;
+  margin-bottom: 1rem !important;
+  border-bottom: 1px solid var(--ll-border);
+  padding-bottom: 10px;
+}
+
+.constitutionDesc {
+  font-style: italic;
+  color: var(--ll-text);
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+  background-color: #f9f9f9;
+  padding: 1rem;
+  border-left: 4px solid var(--ll-blue);
+}
+
+/* ── Responsive ─────────────────────────────────────────────────────────────── */
+
+@media (max-width: 768px) {
+  .heroStats {
+    flex-wrap: wrap;
+    gap: 1.25rem;
+  }
+
+  .heroCta {
+    flex-direction: column;
+  }
+
+  .btnPrimary,
+  .btnSecondary {
+    text-align: center;
+  }
+
+  .cardContainer {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ── Selection (matching govll.org) ─────────────────────────────────────────── */
+
+::selection {
+  background: #cd8544;
+  color: white;
+}
+
+::-moz-selection {
+  background: #cd8544;
+  color: white;
+}

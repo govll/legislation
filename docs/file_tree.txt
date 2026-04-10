@@ -1,0 +1,333 @@
+Folder PATH listing
+Volume serial number is 76C7-55E5
+C:.
+|   filetree.bat
+|   file_tree.txt
+|   
++---constitution
+|       index.md
+|       _category_.json
+|       
++---title-1-governance-act-2025
+|       article-1.md
+|       article-2.md
+|       index.md
+|       _category_.json
+|       
++---title-10-public-disorder-act-2025
+|       article-1.md
+|       article-2.md
+|       article-3.md
+|       article-4.md
+|       article-5.md
+|       article-6.md
+|       article-7.md
+|       article-8.md
+|       article-9.md
+|       index.md
+|       _category_.json
+|       
++---title-11-criminal-procedings-act-2025
+|       article-1.md
+|       article-2.md
+|       article-3.md
+|       article-4.md
+|       article-5.md
+|       article-6c.md
+|       index.md
+|       _category_.json
+|       
++---title-12-civil-procedings-act-2025
+|       article-1.md
+|       article-2.md
+|       article-3.md
+|       article-4.md
+|       article-5.md
+|       article-6c.md
+|       index.md
+|       _category_.json
+|       
++---title-13-common-law-act-2025
+|       article-1.md
+|       article-2.md
+|       article-3.md
+|       article-4.md
+|       article-5.md
+|       article-6.md
+|       article-7.md
+|       article-8c.md
+|       index.md
+|       _category_.json
+|       
++---title-14-child-safety-and-protection-act-2025-csp
+|       article-1.md
+|       article-2.md
+|       article-3.md
+|       article-4.md
+|       article-5c.md
+|       index.md
+|       _category_.json
+|       
++---title-15-online-safety-and-digital-services-act-2025-osds
+|       article-1.md
+|       article-2.md
+|       article-3.md
+|       article-4c.md
+|       index.md
+|       _category_.json
+|       
++---title-16-media-content-classification-and-moderation-act-2025-mccm
+|       article-1.md
+|       article-2.md
+|       article-3.md
+|       article-4c.md
+|       index.md
+|       _category_.json
+|       
++---title-17-senior-dignity-and-welfare-act-2025-sdw
+|       article-1.md
+|       article-2.md
+|       article-3.md
+|       article-4.md
+|       article-5.md
+|       article-6.md
+|       article-7c.md
+|       index.md
+|       _category_.json
+|       
++---title-18-unity-and-equality-act-2025
+|       article-1.md
+|       article-2.md
+|       article-3.md
+|       article-4.md
+|       article-5.md
+|       article-6.md
+|       article-7.md
+|       article-8.md
+|       article-9c.md
+|       index.md
+|       _category_.json
+|       
++---title-19-road-safety-and-traffic-management-act-2025-rstm
+|       article-1.md
+|       article-2.md
+|       article-3.md
+|       article-4.md
+|       article-5.md
+|       article-6.md
+|       article-7.md
+|       article-8.md
+|       article-9c.md
+|       index.md
+|       _category_.json
+|       
++---title-2-public-services-act-2025
+|       article-1.md
+|       article-2.md
+|       article-3.md
+|       index.md
+|       _category_.json
+|       
++---title-20-firearms-and-defensive-weapons-control-act-2025-fdwc
+|       article-1.md
+|       article-2.md
+|       article-3.md
+|       article-4.md
+|       article-5.md
+|       article-6.md
+|       article-7.md
+|       article-8.md
+|       article-9c.md
+|       index.md
+|       _category_.json
+|       
++---title-21-military-service-and-defense-2025-msd
+|       article-1.md
+|       article-2.md
+|       article-3.md
+|       article-4.md
+|       article-5.md
+|       article-6c.md
+|       index.md
+|       _category_.json
+|       
++---title-22-public-administration-efficiency-act-2025-pae
+|       article-1.md
+|       article-2.md
+|       article-3c.md
+|       index.md
+|       _category_.json
+|       
++---title-23-infrastructure-maintenance-act-2025-ima
+|       article-1.md
+|       article-2.md
+|       article-3c.md
+|       index.md
+|       _category_.json
+|       
++---title-24-public-health-preparedness-act-2025-phpa
+|       article-1.md
+|       article-2.md
+|       article-3c.md
+|       index.md
+|       _category_.json
+|       
++---title-25-urban-planning-and-housing-act-2025-upha
+|       article-1.md
+|       article-2.md
+|       article-3c.md
+|       index.md
+|       _category_.json
+|       
++---title-26-ethics-and-anit-corruption-act-2025-eaca
+|       article-1.md
+|       article-2.md
+|       article-3c.md
+|       index.md
+|       _category_.json
+|       
++---title-27-national-mourning-and-memorial-protocol-act-2025-nmmp
+|       article-1.md
+|       article-2.md
+|       article-3.md
+|       article-4.md
+|       article-5c.md
+|       index.md
+|       _category_.json
+|       
++---title-28-national-defence-and-wartime-governance-act-2025-ndwg
+|       article-1.md
+|       article-2.md
+|       article-3.md
+|       article-4.md
+|       article-5.md
+|       article-6.md
+|       article-7-c.md
+|       article-8.md
+|       index.md
+|       _category_.json
+|       
++---title-29-naitonal-secrets-protection-and-official-secrecy-act-2025-nspos
+|       article-1.md
+|       article-2.md
+|       article-3.md
+|       article-4.md
+|       article-5.md
+|       article-6.md
+|       article-8c.md
+|       index.md
+|       _category_.json
+|       
++---title-3-law-enforcement-and-public-safety-act-2025-leps
+|       article-1.md
+|       article-2.md
+|       article-3.md
+|       index.md
+|       _category_.json
+|       
++---title-30-national-security-and-loyalty-act-nsla
+|       article-1.md
+|       article-2.md
+|       article-3.md
+|       article-4.md
+|       article-5.md
+|       article-6.md
+|       article-7.md
+|       article-8.md
+|       article-9c.md
+|       index.md
+|       _category_.json
+|       
++---title-31-digital-liberty-and-algorithmic-rights-act-2025-dlar
+|       article-1.md
+|       article-2.md
+|       article-3.md
+|       article-4.md
+|       article-5.md
+|       article-6c.md
+|       index.md
+|       _category_.json
+|       
++---title-32-national-parks-protection-and-restoration-act-2025-nppr
+|       article-1.md
+|       article-2.md
+|       article-3.md
+|       article-4.md
+|       article-5.md
+|       article-6c.md
+|       index.md
+|       _category_.json
+|       
++---title-33-currency-and-monetary-standards-act-2025-cms
+|       article-1.md
+|       article-2.md
+|       article-3.md
+|       article-4.md
+|       article-5.md
+|       article-6.md
+|       article-7c.md
+|       index.md
+|       _category_.json
+|       
++---title-34-electoral-integrity-and-democracy-act-2025-eid
+|       article-1.md
+|       article-10.md
+|       article-11.md
+|       article-12.md
+|       article-13c.md
+|       article-2.md
+|       article-3.md
+|       article-4.md
+|       article-5.md
+|       article-6.md
+|       article-7.md
+|       article-8.md
+|       article-9.md
+|       index.md
+|       _category_.json
+|       
++---title-4-financial-regulations-act-2025-fra
+|       article-1.md
+|       article-2.md
+|       index.md
+|       _category_.json
+|       
++---title-5-enviromental-protection-act-2025
+|       article-1.md
+|       article-2.md
+|       index.md
+|       _category_.json
+|       
++---title-6-judiciary-and-dispute-resolution-act-2025-jdr
+|       article-1.md
+|       article-2.md
+|       index.md
+|       _category_.json
+|       
++---title-7-civic-rights-and-responsibilities-act-2025-crr
+|       article-1.md
+|       article-2.md
+|       article-3.md
+|       index.md
+|       _category_.json
+|       
++---title-8-final-provisions-act-2025
+|       article-1.md
+|       article-2.md
+|       index.md
+|       _category_.json
+|       
+\---title-9-detainee-rights-and-protections-act-2025-drp
+        article-1.md
+        article-10c.md
+        article-2.md
+        article-3.md
+        article-4.md
+        article-5.md
+        article-6.md
+        article-7.md
+        article-8.md
+        article-9.md
+        index.md
+        _category_.json
+        
