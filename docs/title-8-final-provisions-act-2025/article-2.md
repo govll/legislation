@@ -2,9 +2,7 @@
 title: Article 2
 sidebar_position: 2
 ---
----
-title: Article 2
----
+
 
 #### **Article 2: Implementation**
 

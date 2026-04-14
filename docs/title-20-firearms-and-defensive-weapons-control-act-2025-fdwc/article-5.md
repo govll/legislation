@@ -2,13 +2,10 @@
 title: Article 5
 sidebar_position: 5
 ---
----
-title: Article 5
----
 
-Article 5: Use of Force
+### Article 5: Use of Force
 
-Section 5A -- Self-Defense Justification
+#### Section 5A -- Self-Defense Justification
 
 \(a\) Lethal force only permissible if:
 
@@ -19,12 +16,12 @@ homes/businesses).
 
 \(b\) Duty to report incidents to police within 24 hours.
 
-Section 5B -- Criminal Misuse
+#### Section 5B -- Criminal Misuse
 
 \(a\) Using a firearm in commission of a crime adds 10 years to
 sentences.
 
-Section 5C -- Mandatory Emergency Reporting
+#### Section 5C -- Mandatory Emergency Reporting
 
 \(a\) Permitted Discharge Areas:
 

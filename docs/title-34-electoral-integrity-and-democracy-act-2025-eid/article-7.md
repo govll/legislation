@@ -2,13 +2,10 @@
 title: Article 7
 sidebar_position: 7
 ---
----
-title: Article 7
----
 
 ### **Article 7: Voter Database and Registration**
 
-**Section A: Electoral Roll**
+#### Section A: Electoral Roll
 
 1.  The Electoral Authority shall maintain a national voter database
     linked to the Unique Election ID.

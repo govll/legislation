@@ -8,13 +8,13 @@ title: Article 12
 
 ### **Article 12: Implementation and Constitutional Authority**
 
-**Section A: Commencement\**
+#### Section A: Commencement
 This Act takes effect immediately upon passage.
 
-**Section B: Transition\**
+#### Section B: Transition
 The current government shall remain until the next scheduled election.
 
-**Section C: Constitutional Alignment\**
+#### Section C: Constitutional Alignment
 This Act is adopted under:
 
 - **Article 13** -- Legislative powers of Parliament

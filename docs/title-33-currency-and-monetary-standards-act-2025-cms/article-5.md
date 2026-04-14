@@ -2,42 +2,39 @@
 title: Article 5
 sidebar_position: 5
 ---
----
-title: Article 5
----
 
-Article 5: Anti-Counterfeiting and Security
+### Article 5: Anti-Counterfeiting and Security
 
-Section A: Security Features
+#### Section A: Security Features
 
 All banknotes and coins shall incorporate state-of-the-art
 anti-counterfeit technologies, including:
 
-Holographic threads,
+* Holographic threads,
 
-Microtext,
+* Microtext,
 
-UV inks,
+* UV inks,
 
 Embedded watermarks.
 
-Section B: Criminal Offenses
+#### Section B: Criminal Offenses
 
 The following shall constitute criminal offenses:
 
-The production, possession, or distribution of counterfeit Links Landic
+* The production, possession, or distribution of counterfeit Links Landic
 currency.
 
-The unlawful alteration or defacement of legal tender.
+* The unlawful alteration or defacement of legal tender.
 
-Attempts to replicate or mimic currency design without authorization.
+* Attempts to replicate or mimic currency design without authorization.
 
-Section C: Penalties
+#### Section C: Penalties
 
 Penalties for counterfeiting shall include:
 
-A fine of up to Đ500,000,
+* A fine of up to Đ500,000,
 
-Imprisonment up to 15 years,
+* Imprisonment up to 15 years,
 
-Asset seizure upon conviction.
+* Asset seizure upon conviction.

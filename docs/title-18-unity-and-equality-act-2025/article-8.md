@@ -2,13 +2,10 @@
 title: Article 8
 sidebar_position: 8
 ---
----
-title: Article 8
----
 
-Article 8: Safeguarding LGBTQIA+ Autonomy and Family Rights
+### Article 8: Safeguarding LGBTQIA+ Autonomy and Family Rights
 
-Section 8A -- Prohibition of Non-Consensual Disclosure (\"Outing\")
+#### Section 8A -- Prohibition of Non-Consensual Disclosure (\"Outing\")
 
 \(a\) Definition: Intentionally disclosing an individual's sexual
 orientation, gender identity, or intersex status without their explicit
@@ -26,7 +23,7 @@ mental harm, penalties increase to 5 years imprisonment.
 \(c\) Exceptions: Disclosure required by law (e.g., court orders) or
 made to protect the individual from imminent harm.
 
-Section 8B -- Criminalization of Familial Abandonment
+#### Section 8B -- Criminalization of Familial Abandonment
 
 \(a\) Abandonment Defined: Refusing housing, financial support, or
 emotional care to an individual (regardless of age) due to their
@@ -46,7 +43,7 @@ mandatory restitution for harm caused.
 \(c\) Support Orders: Courts may compel offenders to fund temporary
 housing, therapy, or education for victims.
 
-Section 8C -- Institutional Accountability
+#### Section 8C -- Institutional Accountability
 
 \(a\) Schools, workplaces, and healthcare providers must adopt policies
 preventing non-consensual disclosures and abandonment coercion.
@@ -54,7 +51,7 @@ preventing non-consensual disclosures and abandonment coercion.
 \(b\) Failure to act on reports of violations incurs institutional fines
 up to 500,000 Dimes.
 
-Section 8D -- Victim Support and Redress
+#### Section 8D -- Victim Support and Redress
 
 \(a\) State-Funded Safe Housing: LGBTQIA+ individuals facing abandonment
 receive priority access to emergency shelters.

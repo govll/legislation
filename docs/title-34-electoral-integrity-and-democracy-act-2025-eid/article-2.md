@@ -2,13 +2,10 @@
 title: Article 2
 sidebar_position: 2
 ---
----
-title: Article 2
----
-
 ### **Article 2: Scope and Jurisdiction**
 
-**Section A: Elections Covered\**
+#### Section A: Elections Covered
+
 The Committee shall oversee and regulate:
 
 - Presidential Elections
@@ -17,13 +14,13 @@ The Committee shall oversee and regulate:
 
 - Parliamentary Elections
 
-- National Referenda
+- National Referendum
 
 - Recognised Internal Party Elections
 
 - Local and Regional Elections (if mandated)
 
-**Section B: Timing and Authority**
+#### Section B: Timing and Authority
 
 1.  General elections shall be held every 5 years.
 

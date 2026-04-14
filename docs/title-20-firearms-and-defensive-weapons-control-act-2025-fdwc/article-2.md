@@ -2,13 +2,10 @@
 title: Article 2
 sidebar_position: 2
 ---
----
-title: Article 2
----
 
-Article 2: Licensing and Eligibility
+### Article 2: Licensing and Eligibility
 
-Section 2A -- Licensing Process
+#### Section 2A -- Licensing Process
 
 \(a\) Applicants must:
 
@@ -24,7 +21,7 @@ Provide two character references.
 \(b\) Licenses expire every 3 years; renewal requires updated checks and
 training.
 
-Section 2B -- Self-Defense Permits
+#### Section 2B -- Self-Defense Permits
 
 \(a\) Concealed carry permits require an additional 10-hour
 de-escalation course and proof of secure storage.

@@ -2,9 +2,6 @@
 title: Article 3
 sidebar_position: 3
 ---
----
-title: Article 3
----
 
 #### **Article 3: Emergency Services**
 

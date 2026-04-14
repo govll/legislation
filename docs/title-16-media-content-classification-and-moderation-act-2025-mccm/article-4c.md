@@ -2,11 +2,8 @@
 title: Article C
 sidebar_position: 4
 ---
----
-title: Article C
----
 
-Article C: Constitutional Compliance
+### Article C: Constitutional Compliance
 
 \(a\) Age ratings uphold Chapter 6, Article 16(2) (right to education).
 

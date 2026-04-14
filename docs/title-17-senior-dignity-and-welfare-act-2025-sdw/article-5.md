@@ -2,13 +2,10 @@
 title: Article 5
 sidebar_position: 5
 ---
----
-title: Article 5
----
 
-Article 5: Legal Protections
+### Article 5: Legal Protections
 
-Section 5A -- Guardianship Oversight
+#### Section 5A -- Guardianship Oversight
 
 \(a\) Court-appointed guardians must submit annual reports to the Senior
 Welfare Authority to prevent exploitation.
@@ -16,7 +13,7 @@ Welfare Authority to prevent exploitation.
 \(b\) Seniors retain the right to challenge guardianship orders in the
 Civil Claims Tribunal.
 
-Section 5B -- Simplified Legal Processes
+#### Section 5B -- Simplified Legal Processes
 
 \(a\) Seniors may opt for expedited hearings in property or inheritance
 disputes.

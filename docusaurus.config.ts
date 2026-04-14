@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Legislation of Links Land',
 tagline: 'Official Legal Code and Statutes',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon2.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -61,9 +61,9 @@ projectName: 'legislation',
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'My Site',
+      title: 'legislation.govll.org',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Flag of Links Land',
         src: 'img/logo.svg',
       },
       items: [

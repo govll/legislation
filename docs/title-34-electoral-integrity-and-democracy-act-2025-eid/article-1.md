@@ -2,13 +2,8 @@
 title: Article 1
 sidebar_position: 1
 ---
----
-title: Article 1
----
 
-## **Title 34 -- Electoral Integrity and Democracy Act 2025 (EID)**
-
-### **Preamble**
+#### **Preamble**
 
 To safeguard democracy, guarantee transparency, and protect the
 constitutional rights of all citizens and residents of the

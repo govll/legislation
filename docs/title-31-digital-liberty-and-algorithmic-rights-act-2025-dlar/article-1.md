@@ -2,11 +2,8 @@
 title: Article 1
 sidebar_position: 1
 ---
----
-title: Article 1
----
 
-Preamble:
+#### Preamble:
 
 To preserve the constitutional rights to freedom of expression, access
 to information, and equal civic participation in the digital age, this
@@ -17,9 +14,9 @@ Constitution, this Act ensures transparency in algorithmic systems,
 prohibits unjust digital censorship, and protects the open exchange of
 ideas across all platforms and borders.
 
-Article 1: Purpose and Principles
+### Article 1: Purpose and Principles
 
-Section A: Objective
+#### Section A: Objective
 
 This Act protects the digital rights of all citizens of the
 Constitutional Monarchy of Links Land.
@@ -36,7 +33,7 @@ Non-discrimination
 
 Cross-border access to information and culture
 
-Section B: National Values in the Digital Sphere
+#### Section B: National Values in the Digital Sphere
 
 The internet shall remain a space of free thought, cultural exchange,
 and open speech.

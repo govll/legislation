@@ -2,13 +2,10 @@
 title: Article 7
 sidebar_position: 7
 ---
----
-title: Article 7
----
 
-Article 7: Global Legal Harmonization
+### Article 7: Global Legal Harmonization
 
-Section 7A -- Adoption of International Norms
+#### Section 7A -- Adoption of International Norms
 
 \(a\) Links Land recognizes principles from the Universal Declaration of
 Human Rights and UN Charter as persuasive guidance.

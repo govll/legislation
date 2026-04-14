@@ -2,13 +2,10 @@
 title: Article 2
 sidebar_position: 2
 ---
----
-title: Article 2
----
 
-Article 2: Algorithmic Transparency
+### Article 2: Algorithmic Transparency
 
-Section A: Platform Responsibility
+#### Section A: Platform Responsibility
 
 All digital service providers operating in Links Land must:
 
@@ -21,7 +18,7 @@ Publish annual transparency reports regarding moderation and censorship.
 Content suppression tools must be subject to independent audits if
 affecting over 10,000 users in the country.
 
-Section B: User Rights
+#### Section B: User Rights
 
 All users shall have the right to:
 

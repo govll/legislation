@@ -2,13 +2,10 @@
 title: Article 2
 sidebar_position: 2
 ---
----
-title: Article 2
----
 
-Article 2: Mandatory Surveillance in Sensitive Offices
+### Article 2: Mandatory Surveillance in Sensitive Offices
 
-Section 2A:
+#### Section 2A:
 
 Continuous audio-visual recording is mandated in:
 
@@ -19,7 +16,7 @@ Military command centers and intelligence agencies.
 
 Legislative chambers during closed-door security briefings.
 
-Section 2B:
+#### Section 2B:
 
 Recordings are accessible only to the Constitutional Court,
 Anti-Corruption Bureau, and a new National Security Committee (NSC)
@@ -31,7 +28,7 @@ composed of:
 
 1 representative of the monarch.
 
-Section 2C:
+#### Section 2C:
 
 Unauthorized access or leaking of recordings is punishable by up to 10
 years imprisonment.

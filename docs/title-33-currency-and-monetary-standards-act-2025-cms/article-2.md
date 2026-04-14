@@ -2,18 +2,15 @@
 title: Article 2
 sidebar_position: 2
 ---
----
-title: Article 2
----
 
-Article 2: Currency Subdivision and Units
+### Article 2: Currency Subdivision and Units
 
-Section A: Subunit Definition
+#### Section A: Subunit Definition
 
 One Links Landic Dime (Đ1) shall be divided into 100 units known as
 Tents.
 
-Section B: Denominations
+#### Section B: Denominations
 
 Recognized banknotes shall include: Đ5, Đ10, Đ50, and Đ100.
 

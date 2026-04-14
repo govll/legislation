@@ -2,19 +2,16 @@
 title: Article 4
 sidebar_position: 4
 ---
----
-title: Article 4
----
 
-Article 4: Modern Mourning Practices
+### Article 4: Modern Mourning Practices
 
-Section 4A -- Digital Mourning
+#### Section 4A -- Digital Mourning
 
 All government websites to display mourning banner
 
 Social media blackout periods (optional for citizens)
 
-Section 4B -- Corporate Participation
+#### Section 4B -- Corporate Participation
 
 Mandatory:
 

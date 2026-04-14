@@ -2,13 +2,10 @@
 title: Article 2
 sidebar_position: 2
 ---
----
-title: Article 2
----
 
-Article 2: Protocols by Mourning Level
+### Article 2: Protocols by Mourning Level
 
-Section 2A -- Level 0 (Royal Precautionary Mourning)
+#### Section 2A -- Level 0 (Royal Precautionary Mourning)
 
 Declaration: Activated only by the living Monarch for:
 
@@ -26,7 +23,7 @@ National broadcast by HM explaining the precaution
 
 Government prepares emergency response plans
 
-Section 2B -- Level 1 (Supreme Mourning)
+#### Section 2B -- Level 1 (Supreme Mourning)
 
 (As previously defined, with additions)
 
@@ -36,7 +33,7 @@ Succession plans immediately activated
 
 Privy Council convenes within 1 hour of announcement
 
-Section 2C -- Level 4 (Regional Mourning)
+#### Section 2C -- Level 4 (Regional Mourning)
 
 Duration: 3--7 days
 
@@ -48,7 +45,7 @@ National moment of silence
 
 Prime Minister visits disaster site within 24 hours
 
-Section 2D -- Level 5 (Honorary Mourning)
+#### Section 2D -- Level 5 (Honorary Mourning)
 
 Duration: 1--3 days
 

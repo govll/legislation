@@ -2,13 +2,10 @@
 title: Article C
 sidebar_position: 13
 ---
----
-title: Article C
----
 
 ### **Article C: Constitutional Authority and Compliance**
 
-**Section A: Legal Foundation\**
+#### Section A: Legal Foundation
 This Act is enacted in accordance with the Constitution of the
 Constitutional Monarchy of Links Land, specifically under the following
 provisions:

@@ -2,11 +2,8 @@
 title: Article C
 sidebar_position: 6
 ---
----
-title: Article C
----
 
-Article C: Constitutional Alignment
+### Article C: Constitutional Alignment
 
 This act upholds and is derived from the following articles of the
 Constitution of Links Land:

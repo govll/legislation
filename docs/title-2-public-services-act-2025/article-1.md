@@ -2,9 +2,6 @@
 title: Article 1
 sidebar_position: 1
 ---
----
-title: Article 1
----
 
 #### **Article 1: Health Services**
 

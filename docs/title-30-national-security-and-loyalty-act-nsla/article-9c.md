@@ -2,13 +2,10 @@
 title: Article C
 sidebar_position: 9
 ---
----
-title: Article C
----
 
-Article C: Constitutional Compliance Framework
+### Article C: Constitutional Compliance Framework
 
-Section C1: Alignment with Constitutional Principles
+#### Section C1: Alignment with Constitutional Principles
 
 This Act derives its authority from the following constitutional
 provisions:
@@ -31,7 +28,7 @@ assembly, or lawful dissent.
 Press Freedom (Chapter 6, Article 18), except where reporting directly
 aids treasonous acts.
 
-Section C2: Hierarchy of Legal Authority
+#### Section C2: Hierarchy of Legal Authority
 
 In cases of conflict between this Act and the Constitution, the
 Constitutional Court shall resolve the dispute, per Chapter 5, Article
@@ -40,7 +37,7 @@ Constitutional Court shall resolve the dispute, per Chapter 5, Article
 The Court may strike down specific provisions of this Act while
 preserving the remainder (severability clause).
 
-Section C3: Inter-Branch Cooperation
+#### Section C3: Inter-Branch Cooperation
 
 Executive Branch: The President and Anti-Corruption Bureau shall enforce
 this Act, subject to:
@@ -54,7 +51,7 @@ Monarchy: The monarch's role in treason investigations (Article 6A)
 aligns with their constitutional duty as \"symbol of unity\" (Chapter 2,
 Article 4).
 
-Section C4: Safeguards Against Abuse
+#### Section C4: Safeguards Against Abuse
 
 Treason prosecutions require:
 
@@ -70,7 +67,7 @@ Individuals reporting in good faith retain full rights under Title 26
 
 Retaliation against whistleblowers is a criminal offense.
 
-Section C5: Amendment & Sunset Clause
+#### Section C5: Amendment & Sunset Clause
 
 This Act may only be amended by a two-thirds majority in both
 parliamentary chambers (per Chapter 8, Article 21).

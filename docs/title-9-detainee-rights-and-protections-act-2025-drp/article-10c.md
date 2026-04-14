@@ -2,11 +2,8 @@
 title: Article C
 sidebar_position: 10
 ---
----
-title: Article C
----
 
-Article C: Constitutional and Legal Alignment
+### Article C: Constitutional and Legal Alignment
 
 Judicial Safeguards:
 

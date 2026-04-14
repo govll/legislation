@@ -2,13 +2,10 @@
 title: Article 6
 sidebar_position: 6
 ---
----
-title: Article 6
----
 
-Article 6: Safeguards Against Abuse
+### Article 6: Safeguards Against Abuse
 
-Section 6A:
+#### Section 6A:
 
 No prosecution for treason may proceed without:
 
@@ -18,7 +15,7 @@ Concurrence from the Constitutional Court.
 
 Approval from the monarch (as Head of State).
 
-Section 6B:
+#### Section 6B:
 
 Defendants have the right to:
 

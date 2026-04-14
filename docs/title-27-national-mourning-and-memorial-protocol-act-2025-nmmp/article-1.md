@@ -2,11 +2,8 @@
 title: Article 1
 sidebar_position: 1
 ---
----
-title: Article 1
----
 
-Preamble:
+#### Preamble:
 
 To establish a comprehensive framework for national mourning that honors
 lives lost, preserves national dignity, and provides clear guidance
@@ -14,14 +11,14 @@ during times of tragedy, in accordance with Chapter 1 (National Unity)
 and Chapter 6 (Rights to Collective Grief) of the Constitution of Links
 Land.
 
-Article 1: Definitions
+### Article 1: Definitions
 
-Section 1A -- National Mourning
+#### Section 1A -- National Mourning
 
 A period of collective grief declared by the Monarch or Parliament to
 commemorate events of profound national significance.
 
-Section 1B -- Mourning Levels
+#### Section 1B -- Mourning Levels
 
 Level 0 (Royal Precautionary Mourning): Preemptive mourning declared by
 the living Monarch for impending national tragedy or personal/family

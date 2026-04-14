@@ -2,13 +2,10 @@
 title: Article 9
 sidebar_position: 9
 ---
----
-title: Article 9
----
 
 ### **Article 9: Disputes and Legal Challenges**
 
-**Section A: Legal Complaints**
+#### Section A: Legal Complaints
 
 1.  All complaints must be filed with the Electoral Authority.
 

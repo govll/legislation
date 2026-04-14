@@ -2,11 +2,8 @@
 title: Article C
 sidebar_position: 4
 ---
----
-title: Article C
----
 
-Article C: Constitutional Compliance
+### Article C: Constitutional Compliance
 
 \(a\) Content removal protocols respect Chapter 6, Article 16(3) (free
 expression limits).

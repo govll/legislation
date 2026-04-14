@@ -2,13 +2,10 @@
 title: Article 3
 sidebar_position: 3
 ---
----
-title: Article 3
----
 
-Article 3: Anti-Geofencing & Cross-Border Solidarity
+### Article 3: Anti-Geofencing & Cross-Border Solidarity
 
-Section A: No Algorithmic Borders
+#### Section A: No Algorithmic Borders
 
 No platform may intentionally segregate Links Land users from global
 content except in cases of:
@@ -20,7 +17,7 @@ Explicit legal violations (e.g. hate speech, terrorism)
 Algorithmic firewalls---such as region-exclusive feeds that restrict
 global diversity---are banned.
 
-Section B: Diplomatic Action
+#### Section B: Diplomatic Action
 
 The Ministry of Foreign Affairs shall:
 

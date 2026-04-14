@@ -2,19 +2,16 @@
 title: Article 1
 sidebar_position: 1
 ---
----
-title: Article 1
----
 
-Preamble:
+#### Preamble:
 
 To ensure orderly, safe, and efficient transportation across Links Land,
 protect all road users, and uphold public welfare under Chapter 6,
 Article 16(4) of the Constitution (\"Right to security of person\").
 
-Article 1: Definitions
+### Article 1: Definitions
 
-Section 1A -- Key Terms
+#### Section 1A -- Key Terms
 
 \(a\) Emergency Vehicle: Ambulances, fire trucks, police cars, and other
 state-authorized vehicles using sirens/blue-red lights.
