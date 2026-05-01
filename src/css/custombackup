@@ -7,13 +7,13 @@
 
 :root {
   /* Primary = govll blue */
-  --ifm-color-primary:           #1a3a8f;
-  --ifm-color-primary-dark:      #17337f;
-  --ifm-color-primary-darker:    #152f77;
-  --ifm-color-primary-darkest:   #0d2b6e;
-  --ifm-color-primary-light:     #1e429f;
-  --ifm-color-primary-lighter:   #2a5ac8;
-  --ifm-color-primary-lightest:  #3b6fd4;
+  --ifm-color-primary:          #1a3a8f;
+  --ifm-color-primary-dark:     #17337f;
+  --ifm-color-primary-darker:   #152f77;
+  --ifm-color-primary-darkest:  #0d2b6e;
+  --ifm-color-primary-light:    #1e429f;
+  --ifm-color-primary-lighter:  #2a5ac8;
+  --ifm-color-primary-lightest: #3b6fd4;
 
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
@@ -67,8 +67,8 @@
   --ifm-font-color-secondary:      #555555;
 
   /* Background */
-  --ifm-background-color:           #f5f5f5;
-  --ifm-background-surface-color:   #ffffff;
+  --ifm-background-color:          #f5f5f5;
+  --ifm-background-surface-color:  #ffffff;
 
   /* Borders */
   --ifm-color-emphasis-200: #eaeaea;
@@ -93,42 +93,38 @@ html:not([data-theme='dark']) {
 /* ── Dark Mode ──────────────────────────────────────────────────────────────── */
 
 [data-theme='dark'] {
-  --ifm-color-primary:           #5c8ce6;
-  --ifm-color-primary-dark:      #467ad6;
-  --ifm-color-primary-darker:    #3969c0;
-  --ifm-color-primary-darkest:   #254b9e;
-  --ifm-color-primary-light:     #739ef0;
-  --ifm-color-primary-lighter:   #8bb0f5;
-  --ifm-color-primary-lightest:  #abc9ff;
+  --ifm-color-primary:          #4d7fd4;
+  --ifm-color-primary-dark:     #3b6fd4;
+  --ifm-color-primary-darker:   #2a5ac8;
+  --ifm-color-primary-darkest:  #1a3a8f;
+  --ifm-color-primary-light:    #6090dc;
+  --ifm-color-primary-lighter:  #7aa0e0;
+  --ifm-color-primary-lightest: #99b8ea;
 
-  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.05);
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 
-  --ifm-background-color:         #0b101a;
-  --ifm-background-surface-color: #161e2e;
-  --ifm-navbar-background-color:  #111b33;
-  --ifm-footer-background-color:  #0a0f1d;
-  --ifm-heading-color:            #e2e8f0;
-  --ifm-link-color:               #5c8ce6;
+  --ifm-background-color:         #0f1724;
+  --ifm-background-surface-color: #162035;
+  --ifm-navbar-background-color:  #0d2b6e;
+  --ifm-footer-background-color:  #091a42;
+  --ifm-heading-color:            #a8c0f0;
+  --ifm-link-color:               #7aa0e0;
   --ifm-link-hover-color:         #cd8544;
-  --ifm-menu-color:               #cbd5e1;
-  --ifm-menu-color-active:        #5c8ce6;
-  --ifm-color-emphasis-200:       #1e293b;
-  --ifm-color-emphasis-300:       #334155;
-  
-  /* Added font color variables so the white/dark switch works */
-  --ifm-font-color-base:          #cbd5e1;
-  --ifm-font-color-secondary:     #94a3b8;
+  --ifm-menu-color:               #c8d8f0;
+  --ifm-menu-color-active:        #7aa0e0;
+  --ifm-color-emphasis-200:       #1e3257;
+  --ifm-color-emphasis-300:       #2a4570;
 }
 
 /* ── Global Base ────────────────────────────────────────────────────────────── */
 
 body {
   font-family: var(--ifm-font-family-base);
-  color: var(--ifm-font-color-base); /* Fixed: replaced #333333 */
+  color: #333333;
   line-height: 1.6;
 }
 
-/* Force readable text globally on all doc content */
+/* Force readable dark text globally on all doc content */
 .theme-doc-markdown,
 .markdown,
 .docMainContainer p,
@@ -137,13 +133,13 @@ body {
 .docMainContainer ul,
 article p,
 article li {
-  color: var(--ifm-font-color-base) !important; /* Fixed: replaced #333333 */
+  color: #333333 !important;
 }
 
 /* ── Navbar ─────────────────────────────────────────────────────────────────── */
 
 .navbar {
-  background: linear-gradient(to right, var(--ifm-navbar-background-color), var(--ifm-color-primary-darker));
+  background: linear-gradient(to right, #1a3a8f, #2a5ac8);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   padding: 0 1rem;
 }
@@ -171,26 +167,26 @@ article li {
   height: 36px;
 }
 
-/* ── Docs Layout — force dynamic backgrounds throughout ───────────────────────── */
+/* ── Docs Layout — force light backgrounds throughout ───────────────────────── */
 
 /* Main doc page wrapper */
 .docPage_node_modules-\@docusaurus-theme-classic-lib-theme-DocPage-Layout-styles-module,
 [class*='docPage'] {
-  background-color: var(--ifm-background-color); /* Fixed: replaced #f5f5f5 */
+  background-color: #f5f5f5;
 }
 
 /* Sidebar panel */
 .theme-doc-sidebar-container,
 aside.theme-doc-sidebar-container,
 [class*='docSidebarContainer'] {
-  background-color: var(--ifm-background-surface-color) !important; /* Fixed: replaced #ffffff */
-  border-right: 1px solid var(--ifm-color-emphasis-200) !important; /* Fixed: replaced #eaeaea */
+  background-color: #ffffff !important;
+  border-right: 1px solid #eaeaea !important;
 }
 
 .sidebar_node_modules-\@docusaurus-theme-classic-lib-theme-DocPage-Layout-Sidebar-styles-module,
 [class*='sidebarViewport'],
 nav.menu {
-  background-color: var(--ifm-background-surface-color) !important; /* Fixed: replaced #ffffff */
+  background-color: #ffffff !important;
 }
 
 /* Main content area */
@@ -199,59 +195,59 @@ nav.menu {
 [class*='docItemContainer'],
 .col.col--7,
 article {
-  background-color: var(--ifm-background-surface-color) !important; /* Fixed: replaced #ffffff */
+  background-color: #ffffff !important;
 }
 
 /* The article wrapper itself */
 .theme-doc-markdown,
 .markdown {
-  background-color: var(--ifm-background-surface-color); /* Fixed: replaced #ffffff */
-  color: var(--ifm-font-color-base); /* Fixed: replaced #333333 */
+  background-color: #ffffff;
+  color: #333333;
 }
 
 /* TOC panel on the right */
 .tableOfContents_node_modules-\@docusaurus-theme-classic-lib-theme-TOC-styles-module,
 [class*='tableOfContents'],
 .thin-scrollbar {
-  background-color: var(--ifm-background-surface-color) !important; /* Fixed: replaced #ffffff */
+  background-color: #ffffff !important;
 }
 
 /* Doc root page bg */
 .docs-wrapper,
 .docs-page,
 main.docMainContainer {
-  background-color: var(--ifm-background-color) !important; /* Fixed: replaced #f5f5f5 */
+  background-color: #f5f5f5 !important;
 }
 
 /* ── Sidebar ────────────────────────────────────────────────────────────────── */
 
 .menu {
-  background-color: var(--ifm-background-surface-color) !important; /* Fixed: replaced #ffffff */
+  background-color: #ffffff !important;
   padding: 0.5rem 0;
 }
 
 .menu__list-item-collapsible:hover,
 .menu__list-item-collapsible--active {
-  background-color: var(--ifm-menu-color-background-hover, rgba(0,0,0,0.05)) !important;
+  background-color: #eef2fc !important;
 }
 
 .menu__link {
   font-size: 0.9rem;
   border-radius: 3px;
-  color: var(--ifm-menu-color); /* Fixed: replaced #333333 */
+  color: #333333;
   transition: background-color 0.2s, color 0.2s;
 }
 
 .menu__link:hover {
-  background-color: var(--ifm-menu-color-background-hover, rgba(0,0,0,0.05));
-  color: var(--ifm-color-primary);
+  background-color: #eef2fc;
+  color: #1a3a8f;
 }
 
 .menu__link--active {
-  color: var(--ifm-menu-color-active) !important;
+  color: #1a3a8f !important;
   font-weight: 600;
-  background-color: var(--ifm-menu-color-background-active, rgba(0,0,0,0.05)) !important;
-  border-left: 3px solid var(--ifm-color-primary);
+  background-color: #eef2fc !important;
+  border-left: 3px solid #1a3a8f;
 }
 
 .menu__link--sublist-caret::after,
@@ -264,35 +260,35 @@ main.docMainContainer {
 /* Sidebar category label */
 .menu__list-item > .menu__link--sublist {
   font-weight: 600;
-  color: var(--ifm-heading-color);
+  color: #1a3a8f;
 }
 
 /* ── Doc Content ────────────────────────────────────────────────────────────── */
 
 .markdown h1 {
-  color: var(--ifm-heading-color);
+  color: #1a3a8f;
   font-family: var(--ifm-font-family-base);
   font-size: 2rem;
   margin-bottom: 1rem;
 }
 
 .markdown h2 {
-  color: var(--ifm-heading-color);
+  color: #1a3a8f;
   font-family: var(--ifm-font-family-base);
-  border-bottom: 2px solid var(--ifm-color-emphasis-200); /* Fixed: replaced #eaeaea */
+  border-bottom: 2px solid #eaeaea;
   padding-bottom: 0.4rem;
   margin-bottom: 1rem;
 }
 
 .markdown h3 {
-  color: var(--ifm-color-primary-lighter);
+  color: #2a5ac8;
   font-family: var(--ifm-font-family-base);
-  border-bottom: 1px solid var(--ifm-color-emphasis-200); /* Fixed: replaced #eaeaea */
+  border-bottom: 1px solid #eaeaea;
   padding-bottom: 0.3rem;
 }
 
 .markdown h4 {
-  color: var(--ifm-color-primary-lighter);
+  color: #2a5ac8;
   font-family: var(--ifm-font-family-base);
 }
 
@@ -300,80 +296,80 @@ main.docMainContainer {
 .markdown li,
 .markdown td,
 .markdown th {
-  color: var(--ifm-font-color-base); /* Fixed: replaced #333333 */
+  color: #333333;
   line-height: 1.7;
 }
 
 .markdown blockquote {
-  border-left: 4px solid var(--ifm-color-primary);
-  background-color: var(--ifm-background-color); /* Fixed: replaced #f9f9f9 */
+  border-left: 4px solid #1a3a8f;
+  background-color: #f9f9f9;
   padding: 0.75rem 1rem;
   font-style: italic;
-  color: var(--ifm-font-color-secondary); /* Fixed: replaced #555 */
+  color: #555;
 }
 
 .markdown a {
-  color: var(--ifm-link-color);
+  color: #1a3a8f;
   text-decoration: none;
 }
 
 .markdown a:hover {
-  color: var(--ifm-link-hover-color);
+  color: #2a5ac8;
   text-decoration: underline;
 }
 
 /* ── Breadcrumbs ────────────────────────────────────────────────────────────── */
 
 .breadcrumbs__link {
-  color: var(--ifm-link-color);
+  color: #1a3a8f;
   background-color: transparent !important;
 }
 
 .breadcrumbs__link:hover {
-  color: var(--ifm-link-hover-color);
+  color: #2a5ac8;
 }
 
 .breadcrumbs__item--active .breadcrumbs__link {
-  color: var(--ifm-font-color-secondary);
-  background-color: var(--ifm-color-emphasis-200) !important; /* Fixed: replaced #eaeaea */
+  color: #555;
+  background-color: #eaeaea !important;
 }
 
 /* ── Pagination ─────────────────────────────────────────────────────────────── */
 
 .pagination-nav__link {
-  background-color: var(--ifm-background-surface-color); /* Fixed: replaced #ffffff */
-  border-color: var(--ifm-color-emphasis-200); /* Fixed: replaced #eaeaea */
+  background-color: #ffffff;
+  border-color: #eaeaea;
   border-radius: 5px;
   transition: border-color 0.2s, box-shadow 0.2s;
 }
 
 .pagination-nav__link:hover {
-  border-color: var(--ifm-color-primary);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-color: #1a3a8f;
+  box-shadow: 0 2px 8px rgba(26, 58, 143, 0.1);
 }
 
 .pagination-nav__label {
-  color: var(--ifm-color-primary);
+  color: #1a3a8f;
 }
 
 .pagination-nav__sublabel {
-  color: var(--ifm-font-color-secondary);
+  color: #666;
 }
 
 /* ── Table of Contents ──────────────────────────────────────────────────────── */
 
 .table-of-contents {
-  background-color: var(--ifm-background-surface-color); /* Fixed: replaced #ffffff */
+  background-color: #ffffff;
 }
 
 .table-of-contents__link {
-  color: var(--ifm-font-color-secondary); /* Fixed: replaced #555555 */
+  color: #555555;
   font-size: 0.85rem;
 }
 
 .table-of-contents__link:hover,
 .table-of-contents__link--active {
-  color: var(--ifm-color-primary) !important;
+  color: #1a3a8f !important;
   font-weight: 600;
 }
 
@@ -383,83 +379,83 @@ main.docMainContainer {
 [data-theme='dark'] aside.theme-doc-sidebar-container,
 [data-theme='dark'] nav.menu,
 [data-theme='dark'] .menu {
-  background-color: var(--ifm-background-surface-color) !important;
-  border-right-color: var(--ifm-color-emphasis-200) !important;
+  background-color: #0f1d35 !important;
+  border-right-color: #1e3257 !important;
 }
 
 [data-theme='dark'] .menu__link {
-  color: var(--ifm-menu-color);
+  color: #c8d8f0;
 }
 
 [data-theme='dark'] .menu__link:hover {
-  background-color: var(--ifm-color-emphasis-200);
-  color: var(--ifm-color-primary-light);
+  background-color: #1e3257;
+  color: #7aa0e0;
 }
 
 [data-theme='dark'] .menu__link--active {
-  color: var(--ifm-color-primary-light) !important;
-  background-color: var(--ifm-color-emphasis-200) !important;
-  border-left-color: var(--ifm-color-primary);
+  color: #7aa0e0 !important;
+  background-color: #1e3257 !important;
+  border-left-color: #4d7fd4;
 }
 
 [data-theme='dark'] .menu__list-item > .menu__link--sublist {
-  color: var(--ifm-heading-color);
+  color: #a8c0f0;
 }
 
 [data-theme='dark'] .markdown h1,
 [data-theme='dark'] .markdown h2,
 [data-theme='dark'] .markdown h3,
 [data-theme='dark'] .markdown h4 {
-  color: var(--ifm-heading-color);
+  color: #a8c0f0;
 }
 
 [data-theme='dark'] .markdown h2 {
-  border-bottom-color: var(--ifm-color-emphasis-200);
+  border-bottom-color: #1e3257;
 }
 
 [data-theme='dark'] .markdown h3 {
-  border-bottom-color: var(--ifm-color-emphasis-200);
-  color: var(--ifm-color-primary-light);
+  border-bottom-color: #1e3257;
+  color: #7aa0e0;
 }
 
 [data-theme='dark'] .markdown p,
 [data-theme='dark'] .markdown li {
-  color: var(--ifm-font-color-base);
+  color: #c8d8f0;
 }
 
 [data-theme='dark'] .markdown blockquote {
-  border-left-color: var(--ifm-color-primary);
-  background-color: var(--ifm-background-color);
-  color: var(--ifm-font-color-base);
+  border-left-color: #4d7fd4;
+  background-color: #162035;
+  color: #a8c0f0;
 }
 
 [data-theme='dark'] .table-of-contents__link {
-  color: var(--ifm-font-color-secondary);
+  color: #8899aa;
 }
 
 [data-theme='dark'] .table-of-contents__link--active,
 [data-theme='dark'] .table-of-contents__link:hover {
-  color: var(--ifm-color-primary-light) !important;
+  color: #7aa0e0 !important;
 }
 
 [data-theme='dark'] .breadcrumbs__link {
-  color: var(--ifm-color-primary-light);
+  color: #7aa0e0;
 }
 
 [data-theme='dark'] .pagination-nav__link {
-  background-color: var(--ifm-background-surface-color);
-  border-color: var(--ifm-color-emphasis-200);
+  background-color: #162035;
+  border-color: #1e3257;
 }
 
 [data-theme='dark'] .pagination-nav__label {
-  color: var(--ifm-color-primary-light);
+  color: #7aa0e0;
 }
 
 /* ── Footer ─────────────────────────────────────────────────────────────────── */
 
 .footer {
-  background-color: var(--ifm-footer-background-color);
-  color: var(--ifm-footer-color);
+  background-color: #0d2b6e;
+  color: rgba(255, 255, 255, 0.85);
   padding: 2rem 0;
 }
 
@@ -478,7 +474,7 @@ main.docMainContainer {
 }
 
 .footer__link-item:hover {
-  color: var(--ifm-footer-link-hover-color);
+  color: #cd8544;
   text-decoration: none;
 }
 
@@ -493,40 +489,40 @@ main.docMainContainer {
 /* ── Admonitions (note/warning/tip boxes) ───────────────────────────────────── */
 
 .alert--info {
-  border-left-color: var(--ifm-color-primary);
-  background-color: var(--ifm-menu-color-background-active, rgba(0,0,0,0.05));
+  border-left-color: #1a3a8f;
+  background-color: #eef2fc;
 }
 
 .alert--warning {
-  border-left-color: var(--ll-gold);
-  background-color: rgba(205, 133, 68, 0.1); /* Gold accent with transparency */
+  border-left-color: #cd8544;
+  background-color: #fdf5ec;
 }
 
 /* ── Buttons ────────────────────────────────────────────────────────────────── */
 
 .button--primary {
-  background-color: var(--ifm-color-primary);
-  border-color: var(--ifm-color-primary);
+  background-color: #1a3a8f;
+  border-color: #1a3a8f;
   color: #ffffff;
   border-radius: 5px;
   transition: background-color 0.3s;
 }
 
 .button--primary:hover {
-  background-color: var(--ifm-color-primary-darkest);
-  border-color: var(--ifm-color-primary-darkest);
+  background-color: #0d2b6e;
+  border-color: #0d2b6e;
   color: #ffffff;
 }
 
 .button--secondary {
-  border-color: var(--ifm-color-primary);
-  color: var(--ifm-color-primary);
+  border-color: #1a3a8f;
+  color: #1a3a8f;
   border-radius: 5px;
   transition: background-color 0.3s, color 0.3s;
 }
 
 .button--secondary:hover {
-  background-color: var(--ifm-color-primary);
+  background-color: #1a3a8f;
   color: #ffffff;
 }
 
@@ -546,17 +542,17 @@ main.docMainContainer {
 /* ── Selection (matching govll.org) ─────────────────────────────────────────── */
 
 ::selection {
-  background: var(--ll-gold);
+  background: #cd8544;
   color: #ffffff;
 }
 
 ::-moz-selection {
-  background: var(--ll-gold);
+  background: #cd8544;
   color: #ffffff;
 }
 
 /* ── Active link border (matching govll.org) ────────────────────────────────── */
 
 a:active {
-  outline: 2px dotted var(--ll-gold);
+  outline: 2px dotted #cd8544;
 }
