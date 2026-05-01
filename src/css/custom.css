@@ -1,6 +1,7 @@
 /**
  * Custom CSS for legislation.govll.org
  * Styled to match the Constitutional Monarchy of Links Land main site (govll.org)
+ * Royal(c) 2026 Constitutional Monarchy of Links Land. All rights reserved.
  */
 
 /* ── Infima Overrides ───────────────────────────────────────────────────────── */
@@ -124,7 +125,7 @@ html:not([data-theme='dark']) {
 
 body {
   font-family: var(--ifm-font-family-base);
-  color: var(--ifm-font-color-base); /* Fixed: replaced #333333 */
+  color: var(--ifm-font-color-base); 
   line-height: 1.6;
 }
 
@@ -137,7 +138,7 @@ body {
 .docMainContainer ul,
 article p,
 article li {
-  color: var(--ifm-font-color-base) !important; /* Fixed: replaced #333333 */
+  color: var(--ifm-font-color-base) !important; 
 }
 
 /* ── Navbar ─────────────────────────────────────────────────────────────────── */
@@ -176,21 +177,21 @@ article li {
 /* Main doc page wrapper */
 .docPage_node_modules-\@docusaurus-theme-classic-lib-theme-DocPage-Layout-styles-module,
 [class*='docPage'] {
-  background-color: var(--ifm-background-color); /* Fixed: replaced #f5f5f5 */
+  background-color: var(--ifm-background-color); 
 }
 
 /* Sidebar panel */
 .theme-doc-sidebar-container,
 aside.theme-doc-sidebar-container,
 [class*='docSidebarContainer'] {
-  background-color: var(--ifm-background-surface-color) !important; /* Fixed: replaced #ffffff */
-  border-right: 1px solid var(--ifm-color-emphasis-200) !important; /* Fixed: replaced #eaeaea */
+  background-color: var(--ifm-background-surface-color) !important; 
+  border-right: 1px solid var(--ifm-color-emphasis-200) !important; 
 }
 
 .sidebar_node_modules-\@docusaurus-theme-classic-lib-theme-DocPage-Layout-Sidebar-styles-module,
 [class*='sidebarViewport'],
 nav.menu {
-  background-color: var(--ifm-background-surface-color) !important; /* Fixed: replaced #ffffff */
+  background-color: var(--ifm-background-surface-color) !important; 
 }
 
 /* Main content area */
@@ -199,34 +200,34 @@ nav.menu {
 [class*='docItemContainer'],
 .col.col--7,
 article {
-  background-color: var(--ifm-background-surface-color) !important; /* Fixed: replaced #ffffff */
+  background-color: var(--ifm-background-surface-color) !important; 
 }
 
 /* The article wrapper itself */
 .theme-doc-markdown,
 .markdown {
-  background-color: var(--ifm-background-surface-color); /* Fixed: replaced #ffffff */
-  color: var(--ifm-font-color-base); /* Fixed: replaced #333333 */
+  background-color: var(--ifm-background-surface-color); 
+  color: var(--ifm-font-color-base); 
 }
 
 /* TOC panel on the right */
 .tableOfContents_node_modules-\@docusaurus-theme-classic-lib-theme-TOC-styles-module,
 [class*='tableOfContents'],
 .thin-scrollbar {
-  background-color: var(--ifm-background-surface-color) !important; /* Fixed: replaced #ffffff */
+  background-color: var(--ifm-background-surface-color) !important; 
 }
 
 /* Doc root page bg */
 .docs-wrapper,
 .docs-page,
 main.docMainContainer {
-  background-color: var(--ifm-background-color) !important; /* Fixed: replaced #f5f5f5 */
+  background-color: var(--ifm-background-color) !important; 
 }
 
 /* ── Sidebar ────────────────────────────────────────────────────────────────── */
 
 .menu {
-  background-color: var(--ifm-background-surface-color) !important; /* Fixed: replaced #ffffff */
+  background-color: var(--ifm-background-surface-color) !important; 
   padding: 0.5rem 0;
 }
 
@@ -238,7 +239,7 @@ main.docMainContainer {
 .menu__link {
   font-size: 0.9rem;
   border-radius: 3px;
-  color: var(--ifm-menu-color); /* Fixed: replaced #333333 */
+  color: var(--ifm-menu-color); 
   transition: background-color 0.2s, color 0.2s;
 }
 
@@ -279,7 +280,7 @@ main.docMainContainer {
 .markdown h2 {
   color: var(--ifm-heading-color);
   font-family: var(--ifm-font-family-base);
-  border-bottom: 2px solid var(--ifm-color-emphasis-200); /* Fixed: replaced #eaeaea */
+  border-bottom: 2px solid var(--ifm-color-emphasis-200); 
   padding-bottom: 0.4rem;
   margin-bottom: 1rem;
 }
@@ -287,7 +288,7 @@ main.docMainContainer {
 .markdown h3 {
   color: var(--ifm-color-primary-lighter);
   font-family: var(--ifm-font-family-base);
-  border-bottom: 1px solid var(--ifm-color-emphasis-200); /* Fixed: replaced #eaeaea */
+  border-bottom: 1px solid var(--ifm-color-emphasis-200); 
   padding-bottom: 0.3rem;
 }
 
@@ -300,16 +301,16 @@ main.docMainContainer {
 .markdown li,
 .markdown td,
 .markdown th {
-  color: var(--ifm-font-color-base); /* Fixed: replaced #333333 */
+  color: var(--ifm-font-color-base); 
   line-height: 1.7;
 }
 
 .markdown blockquote {
   border-left: 4px solid var(--ifm-color-primary);
-  background-color: var(--ifm-background-color); /* Fixed: replaced #f9f9f9 */
+  background-color: var(--ifm-background-color); 
   padding: 0.75rem 1rem;
   font-style: italic;
-  color: var(--ifm-font-color-secondary); /* Fixed: replaced #555 */
+  color: var(--ifm-font-color-secondary);
 }
 
 .markdown a {
@@ -335,14 +336,14 @@ main.docMainContainer {
 
 .breadcrumbs__item--active .breadcrumbs__link {
   color: var(--ifm-font-color-secondary);
-  background-color: var(--ifm-color-emphasis-200) !important; /* Fixed: replaced #eaeaea */
+  background-color: var(--ifm-color-emphasis-200) !important; 
 }
 
 /* ── Pagination ─────────────────────────────────────────────────────────────── */
 
 .pagination-nav__link {
-  background-color: var(--ifm-background-surface-color); /* Fixed: replaced #ffffff */
-  border-color: var(--ifm-color-emphasis-200); /* Fixed: replaced #eaeaea */
+  background-color: var(--ifm-background-surface-color); 
+  border-color: var(--ifm-color-emphasis-200); 
   border-radius: 5px;
   transition: border-color 0.2s, box-shadow 0.2s;
 }
@@ -363,11 +364,11 @@ main.docMainContainer {
 /* ── Table of Contents ──────────────────────────────────────────────────────── */
 
 .table-of-contents {
-  background-color: var(--ifm-background-surface-color); /* Fixed: replaced #ffffff */
+  background-color: var(--ifm-background-surface-color); 
 }
 
 .table-of-contents__link {
-  color: var(--ifm-font-color-secondary); /* Fixed: replaced #555555 */
+  color: var(--ifm-font-color-secondary); 
   font-size: 0.85rem;
 }
 
@@ -499,7 +500,7 @@ main.docMainContainer {
 
 .alert--warning {
   border-left-color: var(--ll-gold);
-  background-color: rgba(205, 133, 68, 0.1); /* Gold accent with transparency */
+  background-color: rgba(205, 133, 68, 0.1);
 }
 
 /* ── Buttons ────────────────────────────────────────────────────────────────── */
