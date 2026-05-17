@@ -9,6 +9,8 @@ const config: Config = {
 tagline: 'Official Legal Code and Statutes',
   favicon: 'img/favicon2.ico',
 
+
+  
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
@@ -101,6 +103,13 @@ projectName: 'legislation',
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
+  // banner
+scripts: [
+    {
+      src: 'https://govll.org/_assets/embeds/govbanner.js',
+      async: false,
+    },
+  ],
 };
 
 export default config;
